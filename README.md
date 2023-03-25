@@ -1,3 +1,5 @@
+# Application to sends up weekly playlists / emails containing new releases from all followed artists. Connects to streaming services to import artists and export playlists.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
