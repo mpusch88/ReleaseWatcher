@@ -45,8 +45,6 @@ To set up the project locally, please follow these steps:
 4. Start the development server using `npm run dev` or `yarn dev`.
 5. Open the app in your browser at `http://localhost:3000`.
 
-For more detailed setup instructions, please refer to the [wiki](https://github.com/ReleaseWatcher/ReleaseWatcher/wiki).
-
 ## Milestones
 
 This project is divided into several milestones:
