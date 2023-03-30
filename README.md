@@ -1,6 +1,6 @@
 # ReleaseWatcher
 
-ReleaseWatcher is a web and mobile application designed to help users monitor their favorite music artists for new releases and provide a weekly summary of all new releases through a playlist or email. The app aims to improve on the "Release Radar" functionality offered by Spotify. This project not only demonstrates the development of ReleaseWatcher but also showcases how ChatGPT can assist and guide the development process.
+ReleaseWatcher is a web and mobile application designed to help users monitor their favorite music artists for new releases and provide a weekly summary of all new releases through a playlist or email. This project not only demonstrates the development of ReleaseWatcher but also showcases how ChatGPT and GPT4 can assist and guide the development process.
 
 ## Table of Contents
 
@@ -59,10 +59,6 @@ This project is divided into several milestones:
 6. **Milestone 6:** Optimize performance, usability, scalability, and security.
 7. **Milestone 7:** Test and debug the application on web and mobile platforms, including comprehensive testing of all supported streaming services and export options.
 8. **Milestone 8:** Launch the app and provide ongoing support, updates, and potential integration of additional streaming services or features based on user feedback and market demands.
-
-## Accompanying Video Series
-
-The development of ReleaseWatcher is documented in a 10-part video series available on [YouTube](https://www.youtube.com/channel/UCLhLub_AALFskTods2Zrflw). The series covers the entire development process, from planning and design to deployment and marketing, with a focus on integrating ChatGPT throughout the development journey.
 
 ## Contributing
 
