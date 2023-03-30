@@ -17,7 +17,7 @@ ReleaseWatcher is a web and mobile application designed to help users monitor th
 
 The idea behind ReleaseWatcher is to make it easier for users to keep track of new releases from their favorite music artists across multiple streaming services. By offering a unified platform, users can receive a weekly summary of new releases through a playlist or email, ensuring they never miss a new release from the artists they care about.
 
-The development of this project is accompanied by a video series that documents the entire process, from planning and design to deployment and marketing, using ChatGPT. You can find the video series at [ReleaseWatcher YouTube Plan](https://www.youtube.com/channel/UCLhLub_AALFskTods2Zrflw).
+The development of this project is accompanied by a video series that documents the entire process, from planning and design to deployment and marketing, using ChatGPT. You can find the video series on [YouTube](https://www.youtube.com/channel/UCLhLub_AALFskTods2Zrflw).
 
 ## Features
 
