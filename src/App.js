@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useCallback } from "react";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import LoginPage from "./pages/LoginPage";
+import Navbar from "./pages/Navbar";
 
 function App() {
+  const [authenticated, setAuthenticated] = useState(false);
+
+  const handleLogin = useCallback(() => {
+    setAuthenticated(true);
+  }, []);
+
+  const handleLogout = useCallback(() => {
+    setAuthenticated(false);
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar authenticated={authenticated} onLogout={handleLogout} />
+      <Routes>
+        <Route path="/" element={authenticated ? <HomePage /> : <Navigate to="/login" />} />
+        <Route path="/login" element={<LoginPage onLogin={handleLogin} />} />
+      </Routes>
+    </Router>
   );
 }
 
