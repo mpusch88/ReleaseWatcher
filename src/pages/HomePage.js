@@ -4,8 +4,7 @@ import "./HomePage.css";
 const HomePage = () => {
   return (
     <div className="HomePage">
-      <h1>Welcome to my app!</h1>
-      <p>Replace this with your own content.</p>
+      <h1>Welcome to ReleaseWatcher!</h1>
     </div>
   );
 };
