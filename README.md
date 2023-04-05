@@ -34,7 +34,7 @@ This project uses https://github.com/mpoon/gpt-repository-loader to maintain up 
 Example command:
 
 ```bash
-python gpt_repository_loader.py "$/ReleaseWatcher" -p "$/ReleaseWatcher/.preamble" -o "$/ReleaseWatcher/context.txt" -t 2048 -m 10
+python gpt_repository_loader.py "../ReleaseWatcher" -p "../ReleaseWatcher/.preamble" -o "../ReleaseWatcher/context.txt" -t 2048 -m 10
 ```
 
 ## Technology Stack
