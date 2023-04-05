@@ -6,6 +6,7 @@ ReleaseWatcher is a web and mobile application designed to help users monitor th
 
 - [About](#about)
 - [Features](#features)
+- [Context](#context)
 - [Technology Stack](#technology-stack)
 - [Getting Started](#getting-started)
 - [Milestones](#milestones)
@@ -25,6 +26,16 @@ The idea behind ReleaseWatcher is to make it easier for users to keep track of n
 - Release Monitoring for Subscribed Artists
 - Weekly Summary of New Releases via Playlist or Email
 - Bonus Feature (Tentative): Podcast Subscription Transfer
+
+## Context
+
+This project uses https://github.com/mpoon/gpt-repository-loader to maintain up to date code context for use with ChatGPT and GPT4.
+
+Example command:
+
+```bash
+python gpt_repository_loader.py "$/ReleaseWatcher" -p "$/ReleaseWatcher/.preamble" -o "$/ReleaseWatcher/context.txt" -t 2048 -m 10
+```
 
 ## Technology Stack
 
