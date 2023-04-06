@@ -42,7 +42,7 @@ const LoginPage = ({ onLogin }) => {
     e.preventDefault();
   
     const response = await fetch(
-      `${process.env.REACT_APP_API_BASE_URL}/users?username=${credentials.username}&password=${credentials.password}`,
+      `${process.env.REACT_APP_DB_API_URL}/users?username=${credentials.username}&password=${credentials.password}`,
       {
         headers: {
           "Cache-Control": "no-cache, no-store, must-revalidate",
