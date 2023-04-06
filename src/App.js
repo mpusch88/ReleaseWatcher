@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import HomePage from "./pages/HomePage";
-import LoginPage from "./pages/LoginPage";
+import LoginPage from "./pages/Authentication/LoginPage";
 import Navbar from "./components/Navbar";
 
 function App() {
