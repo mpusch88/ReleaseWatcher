@@ -24,3 +24,11 @@ public\logo512.png
 public\favicon.ico
 context_*
 .preamble
+
+node_modules/*
+.DS_Store
+.vs
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

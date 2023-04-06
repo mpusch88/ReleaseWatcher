@@ -1,3 +1,34 @@
+// LoginPage:
+//   Initialize state variables for username, password, and error message
+
+//   handleSubmit:
+//     Prevent default form submission behavior
+//     Validate username and password input
+//       If input is invalid:
+//         Set appropriate error message in state
+//         Exit function
+//     Call backend API to authenticate the user with username and password
+//       If authentication is successful:
+//         Execute onLogin function from props
+//         Redirect to the home page or another protected route
+//       If authentication fails:
+//         Set appropriate error message in state
+
+//   handleKeyPress:
+//     Check if the pressed key is "Enter"
+//       If true, call handleSubmit
+
+//   handleChange:
+//     Update the corresponding state variable (username or password) based on the input field being modified
+
+//   render:
+//     Display LoginPage component with a form containing:
+//       - Username input field, with a change event handler calling handleChange and a key press event handler calling handleKeyPress
+//       - Password input field, with a change event handler calling handleChange and a key press event handler calling handleKeyPress
+//       - Submit button, with a click event handler calling handleSubmit
+//       - If error message exists in state, display the error message
+
+
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./LoginPage.css";
