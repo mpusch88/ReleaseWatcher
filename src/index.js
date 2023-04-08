@@ -6,10 +6,23 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
 
+// TODO: Remove this component and uncomment the App component below when the new website is ready to go live.
+const UnderConstruction = () => {
+  return (
+    <div className="container" style={{ paddingTop: '10%' }}>
+      <h1 className="display-4 text-center">Under Construction</h1>
+      <p className="lead text-center">
+        We're working hard to bring you our new website. Please check back soon!
+      </p>
+    </div>
+  );
+};
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <UnderConstruction />
+    {/* <App /> */}
   </React.StrictMode>
 );
 
