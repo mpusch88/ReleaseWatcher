@@ -10,9 +10,12 @@ import './index.css';
 const UnderConstruction = () => {
   return (
     <div className="container" style={{ paddingTop: '10%' }}>
-      <h1 className="display-4 text-center">Under Construction</h1>
+      <h1 className="display-4 text-center">
+        <img src="releasewatcher.png" alt="Release Watcher" style={{ width: '64px', height: '64px', marginRight: '20px', marginBottom: '20px' }} />
+        Under Construction
+      </h1>
       <p className="lead text-center">
-        We're working hard to bring you our new website. Please check back soon!
+        ReleaseWatcher coming soon...
       </p>
     </div>
   );

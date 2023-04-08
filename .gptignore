@@ -20,7 +20,6 @@ LICENSE
 package-lock.json
 package.json
 public\logo192.png
-public\logo512.png
 public\favicon.ico
 context_*
 .preamble
