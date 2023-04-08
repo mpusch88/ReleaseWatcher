@@ -11,7 +11,7 @@ const UnderConstruction = () => {
   return (
     <div className="container" style={{ paddingTop: '10%' }}>
       <h1 className="display-4 text-center">
-        <img src="releasewatcher.png" alt="Release Watcher" style={{ width: '64px', height: '64px', marginRight: '20px', marginBottom: '20px' }} />
+        <img src="releasewatcher.png" style={{ width: '64px', height: '64px', marginRight: '20px', marginBottom: '20px' }} />
         Under Construction
       </h1>
       <p className="lead text-center">
