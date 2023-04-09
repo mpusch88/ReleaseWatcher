@@ -5,13 +5,14 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
+import ReleaseWatcher from './public/releasewatcher.png'
 
 // TODO: Remove this component and uncomment the App component below when the new website is ready to go live.
 const UnderConstruction = () => {
   return (
     <div className="container" style={{ paddingTop: '10%' }}>
       <h1 className="display-4 text-center">
-        <img src="releasewatcher.png" style={{ width: '64px', height: '64px', marginRight: '20px', marginBottom: '20px' }} />
+        <img src={ReleaseWatcher} style={{ width: '64px', height: '64px', marginRight: '20px', marginBottom: '20px' }} />
         Under Construction
       </h1>
       <p className="lead text-center">
