@@ -5,19 +5,28 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
-import ReleaseWatcher from './assets/images/logo/ReleaseWatcher.png'
+import ReleaseWatcher from './assets/images/logo/ReleaseWatcher.png';
 
-// TODO: Remove this component and uncomment the App component below when the new website is ready to go live.
+// Add the following styles to center the content vertically on mobile devices
+const containerStyle = {
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'center',
+  alignItems: 'center',
+  minHeight: '100vh',
+};
+
 const UnderConstruction = () => {
   return (
-    <div className="container" style={{ paddingTop: '10%' }}>
+    <div className="container" style={containerStyle}>
       <h1 className="display-4 text-center">
-        <img src={ReleaseWatcher} style={{ width: '64px', height: '64px', marginRight: '20px', marginBottom: '20px' }} />
+        <img
+          src={ReleaseWatcher}
+          style={{ width: '64px', height: '64px', marginRight: '20px', marginBottom: '20px' }}
+        />
         Under Construction
       </h1>
-      <p className="lead text-center">
-        ReleaseWatcher coming soon...
-      </p>
+      <p className="lead text-center">ReleaseWatcher coming soon...</p>
     </div>
   );
 };
@@ -30,7 +39,4 @@ root.render(
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
