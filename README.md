@@ -27,16 +27,6 @@ The idea behind ReleaseWatcher is to make it easier for users to keep track of n
 - Weekly Summary of New Releases via Playlist or Email
 - Bonus Feature (Tentative): Podcast Subscription Transfer
 
-## Context
-
-This project uses <https://github.com/mpoon/gpt-repository-loader> to maintain up to date code context for use with ChatGPT and GPT4.
-
-Example command:
-
-```bash
-python gpt_repository_loader.py "../ReleaseWatcher" -p "../ReleaseWatcher/.preamble" -o "../ReleaseWatcher/context.txt" -t 2048 -m 10
-```
-
 ## Technology Stack
 
 - Frontend: React (Web), React Native (Mobile)
@@ -71,10 +61,16 @@ This project is divided into several milestones:
 
 We welcome contributions to the ReleaseWatcher project! If you would like to contribute, please fork the repository and create a pull request with your changes. Be sure to provide a detailed description of your changes and follow the project's coding standards and guidelines.
 
+## Context
+
+This project uses <https://github.com/mpoon/gpt-repository-loader> to maintain up to date code context for use with ChatGPT and GPT4.
+
+Example command:
+
+```bash
+python gpt_repository_loader.py "../ReleaseWatcher" -p "../ReleaseWatcher/.preamble" -o "../ReleaseWatcher/context.txt" -t 2048 -m 10
+```
+
 ## License
 
-This project is licensed under the [GNU General Public License v3.0](LICENSE).
-
-## Conclusion
-
-As a testament to the power of AI and its integration into the software development process, this README was generated using GPT-4, an advanced language model developed by OpenAI. This demonstrates the capabilities of AI-assisted development and highlights the potential impact AI can have on the industry. We hope you find this project and its accompanying video series informative and inspiring.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
