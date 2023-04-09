@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
-import ReleaseWatcher from './public/releasewatcher.png'
+import ReleaseWatcher from './assets/images/logo/ReleaseWatcher.png'
 
 // TODO: Remove this component and uncomment the App component below when the new website is ready to go live.
 const UnderConstruction = () => {
