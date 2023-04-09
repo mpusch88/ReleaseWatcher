@@ -12,7 +12,6 @@ ReleaseWatcher is a web and mobile application designed to help users monitor th
 - [Milestones](#milestones)
 - [Contributing](#contributing)
 - [License](#license)
-- [Conclusion](#conclusion)
 
 ## About
 
