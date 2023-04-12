@@ -22,7 +22,7 @@ const UnderConstruction = () => {
       <h1 className="display-4 text-center">
         <img
           src={ReleaseWatcher}
-          style={{ width: 128px', height: '128px' }}
+          style={{ width: '128px', height: '128px' }}
         />
         Under Construction
       </h1>
