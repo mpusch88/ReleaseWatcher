@@ -19,11 +19,13 @@ LICENSE
 
 package-lock.json
 package.json
-public\logo192.png
 public\favicon.ico
+public\favicon_white.ico
+public\ReleaseWatcher_Black.png
+public\ReleaseWatcher_White.png
 context_*
 .preamble
-
+src/assets/*
 node_modules/*
 .DS_Store
 .vs
