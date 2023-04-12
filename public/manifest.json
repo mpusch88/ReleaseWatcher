@@ -13,14 +13,14 @@
       "type": "image/x-icon"
     },
     {
-      "src": "ReleaseWatcher_Black.png",
+      "src": "ReleaseWatcher.png",
       "type": "image/png",
-      "sizes": "196x196"
+      "sizes": "192x192"
     },
     {
       "src": "ReleaseWatcher_White.png",
       "type": "image/png",
-      "sizes": "196x196"
+      "sizes": "192x192"
     }
   ],
   "start_url": ".",

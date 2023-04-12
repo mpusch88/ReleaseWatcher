@@ -21,7 +21,7 @@ package-lock.json
 package.json
 public\favicon.ico
 public\favicon_white.ico
-public\ReleaseWatcher_Black.png
+public\ReleaseWatcher.png
 public\ReleaseWatcher_White.png
 context_*
 .preamble

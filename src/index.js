@@ -2,10 +2,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
-import ReleaseWatcher from './assets/images/logo/ReleaseWatcher_Black.png';
+import ReleaseWatcher from './assets/images/logo/ReleaseWatcher.png';
+import App from './App';
 
 // Add the following styles to center the content vertically on mobile devices
 const containerStyle = {
