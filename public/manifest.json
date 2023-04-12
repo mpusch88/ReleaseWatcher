@@ -11,6 +11,16 @@
       "src": "logo192.png",
       "type": "image/png",
       "sizes": "192x192"
+    },
+    {
+      "src": "ReleaseWatcher_Black.png",
+      "type": "image/png",
+      "sizes": "196x196"
+    },
+    {
+      "src": "ReleaseWatcher_White.png",
+      "type": "image/png",
+      "sizes": "196x196"
     }
   ],
   "start_url": ".",
