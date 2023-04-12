@@ -19,11 +19,11 @@ const containerStyle = {
 const UnderConstruction = () => {
   return (
     <div className="container" style={containerStyle}>
-      <h1 className="display-4 text-center">
-        <img
+      <img
           src={ReleaseWatcher}
           style={{ width: '128px', height: '128px' }}
         />
+      <h1 className="display-4 text-center">
         Under Construction
       </h1>
       <p className="lead text-center">ReleaseWatcher coming soon...</p>
