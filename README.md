@@ -64,7 +64,7 @@ We welcome contributions to the ReleaseWatcher project! If you would like to con
 
 ## Context
 
-This project uses a modified version of  <https://github.com/mpoon/gpt-repository-loader> to maintain up to date code context for use with ChatGPT and GPT4.
+This project uses a modified version of  <https://github.com/mpoon/gpt-repository-loader> to maintain up to date code context for use with ChatGPT / GPT4.
 
 Example command:
 
