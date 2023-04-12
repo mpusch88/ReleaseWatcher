@@ -2,6 +2,8 @@
 
 ReleaseWatcher is a web and mobile application designed to help users monitor their favorite music artists for new releases and provide a weekly summary of all new releases through a playlist or email. This project not only demonstrates the development of ReleaseWatcher but also showcases how ChatGPT and GPT4 can assist and guide the development process.
 
+<https://www.releasewatcher.com>
+
 ## Table of Contents
 
 - [About](#about)
