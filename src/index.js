@@ -20,7 +20,7 @@ const UnderConstruction = () => {
   return (
     <div className="container" style={containerStyle}>
       <img
-        src={ReleaseWatcher} alt='ReleaseWatcher Logo' style={{ width: '128px', height: '128px' }}
+        src={ReleaseWatcher} alt='ReleaseWatcher Logo' style={{ width: '256px', height: '256px' }}
       />
       <h1 className="display-4 text-center">
         Under Construction

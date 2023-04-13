@@ -13,23 +13,16 @@ LICENSE
 .gitignore
 *.env*
 *.png
+*.ico
+*.svg
 *.jpeg
 *.jpg
 *bin/*
 
-package-lock.json
-package.json
-public\favicon.ico
-public\favicon_white.ico
-public\ReleaseWatcher_Black.svg
-public\ReleaseWatcher_White.svg
-public\android-chrome-192x192.png
-public\android-chrome-512x512.png
-public\apple-touch-icon.png
-public\favicon-16x16.png
-public\favicon-32x32.png
 context_*
 .preamble
+package-lock.json
+package.json
 src/assets/*
 node_modules/*
 .DS_Store
