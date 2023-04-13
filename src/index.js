@@ -4,7 +4,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
-import ReleaseWatcher from './assets/images/logo/ReleaseWatcher.png';
+import ReleaseWatcher from './assets/images/logo/ReleaseWatcher_Black.svg';
 import App from './App';
 
 // Add the following styles to center the content vertically on mobile devices
