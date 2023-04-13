@@ -4,7 +4,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
-import ReleaseWatcher from './assets/images/logo/ReleaseWatcher_Black.svg';
 import App from './App';
 
 // Add the following styles to center the content vertically on mobile devices
@@ -19,9 +18,10 @@ const containerStyle = {
 const UnderConstruction = () => {
   return (
     <div className="container" style={containerStyle}>
-      <img
+      {/* <img
         src={ReleaseWatcher} alt='ReleaseWatcher Logo' style={{ width: '256px', height: '256px' }}
-      />
+      /> */}
+      <img src={`${process.env.PUBLIC_URL}/ReleaseWatcher_Black.svg`} alt="Logo" style={{ width: '256px', height: '256px' }}/>
       <h1 className="display-4 text-center">
         Under Construction
       </h1>
