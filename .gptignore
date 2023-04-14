@@ -27,6 +27,7 @@ src/assets/*
 node_modules/*
 .DS_Store
 .vs
+.hintrc
 
 npm-debug.log*
 yarn-debug.log*
