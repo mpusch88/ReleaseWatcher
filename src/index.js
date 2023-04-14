@@ -19,7 +19,7 @@ const UnderConstruction = () => {
   return (
     <div className="container" style={containerStyle}>
       {/* <img
-        src={ReleaseWatcher} alt='ReleaseWatcher Logo' style={{ width: '256px', height: '256px', paddingBottom: '20px' }}
+        src={ReleaseWatcher} alt='ReleaseWatcher Logo' style={{ width: '256px', height: '256px', padding-bottom: '20px' }}
       /> */}
       <img src={`${process.env.PUBLIC_URL}/ReleaseWatcher_Black.svg`} alt="Logo" style={{ width: '256px', height: '256px' }}/>
       <h1 className="display-4 text-center">
