@@ -1,8 +1,14 @@
+import { BrowserRouter as Router } from 'react-router-dom';
 import { render, screen } from '@testing-library/react';
-import App from '../App';
+import LoginPage from '../pages/Authentication/LoginPage';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
+test('LoginPage renders ReleaseWatcher', () => {
+  render(
+    <Router>
+      <LoginPage />
+    </Router>
+  );
+
+  const linkElement = screen.getByText(/ReleaseWatcher/i);
   expect(linkElement).toBeInTheDocument();
 });
