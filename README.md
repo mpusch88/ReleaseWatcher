@@ -1,4 +1,4 @@
-# ReleaseWatcher
+# ReleaseWatcher (WIP)
 
 ReleaseWatcher is a web and mobile application designed to help users monitor their favorite music artists for new releases and provide a weekly summary of all new releases through a playlist or email.
 
