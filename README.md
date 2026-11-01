@@ -62,16 +62,6 @@ This project is divided into several milestones:
 
 We welcome contributions to the ReleaseWatcher project! If you would like to contribute, please fork the repository and create a pull request with your changes. Be sure to provide a detailed description of your changes and follow the project's coding standards and guidelines.
 
-## Context
-
-This project uses a modified version of  <https://github.com/mpoon/gpt-repository-loader> to maintain up to date code context for use with ChatGPT / GPT4.
-
-Example command:
-
-```bash
-python gpt_repository_loader.py "../ReleaseWatcher" -p "../ReleaseWatcher/.preamble" -o "../ReleaseWatcher/context.txt" -t 2048 -m 10
-```
-
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
